@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+ /* Center content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style the letters */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Style the form */
+form {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+form input[type="text"] {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+body {
+  margin: 2rem;
+}
